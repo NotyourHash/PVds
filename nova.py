@@ -129,13 +129,13 @@ def start(update: Update, context: CallbackContext):
     welcome_message = (
         f"👋 **Hello {user_first_name}!**\n\n"
         "⚠️ I only work in approved groups!\n\n"
-        "💡 If you're interested in buying our services, please contact [@ANIK_X_PRO](https://t.me/anik_x_pro).\n\n"
+        "💡 If you're interested in buying our services, please contact [@Nooobso](https://t.me/nooobso).\n\n"
         "👇 Use the buttons below to join our Telegram group or contact the owner directly!"
     )
     # Create buttons
     keyboard = [
         [InlineKeyboardButton("🚀 Join Telegram", url="https://t.me/teamnovaddos")],
-        [InlineKeyboardButton("📞 Contact Owner", url="https://t.me/anik_x_pro")]
+        [InlineKeyboardButton("📞 Contact Owner", url="https://t.me/nooobso")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     
@@ -295,7 +295,7 @@ def attack(update: Update, context: CallbackContext) -> None:
 
 def main():
     # Initialize the updater and dispatcher with your bot token
-    updater = Updater("6495895757:AAENRxih97VgX9Jr7HkETpGpWENPctFvcTA", use_context=True)
+    updater = Updater("7341837150:AAHk6RzzfgsUvZOnWvdqSspqNVVwDpGfM3g", use_context=True)
     dispatcher = updater.dispatcher
 
     # Command handlers
