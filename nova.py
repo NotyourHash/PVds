@@ -16,7 +16,7 @@ groups_collection = db['approved_groups']  # Collection for approved groups
 attacks_collection = db['attack_history']
 group_settings_collection = db['group_settings'] 
 
-admins = [2067727121]
+admins = [6074152428]
 active_attacks = {}  # Tracks active attacks per group {group_id: [list of active attacks]}
 cooldowns = {}
 group_max_duration = {}  # Dictionary to store max attack time per group (chat ID)
